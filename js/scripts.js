@@ -1,7 +1,8 @@
 // TABLE
 
 $("#phone-table").tabulator({
-    // height: 800,
+    layout: "fitColumns",
+    responsiveLayout: true,
     columns: [
         { title: "Imie", field: "imie", sortable: true },
         { title: "Nazwisko", field: "nazwisko", sortable: true },
